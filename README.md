@@ -9,7 +9,7 @@ The New York Times API provided specific keys on article search. The main keys t
 * Section
 * Date
 * Headline
-For each of the presidents, we queried a two year period starting from 6 months before office to 18 months post-inauguration. This allowed us to compare the news coverage for the presidents during similar timeframes. Our queries yielded nearly 6000 articles.
+For each of the presidents, we queried a two year period starting from 6 months before office to 18 months post-inauguration. This allowed us to compare the news coverage for the presidents during similar timeframes. Our queries yielded 6000 articles in total.
 
 # SQL Database Schema
 we used SQLAlchemy to construct the schema for the SQL database.
@@ -24,16 +24,16 @@ The total article count per month for each of the presidential candidates are co
 <p align="center">
   <img src="distribution_pie.png" title="Distribution of articles by each president">
 </p>
-This visual provided us with an overview of the number of articles covered by The New York Times for each of the presidents. The chart showed that out of all the articles that The New York Times has published for each of the presidents, there are 18% more articles covered by the newspaper on President Trump than on President Obama during the same time period. 
+This visual provided an overview of the number of articles covered by The New York Times for each of the presidents. The chart showed that for each of the presidents, there are 18% more articles covered by the newspaper on President Trump than on President Obama during the same time period. 
 
 # Presidental article topic comparison 
 <p align="center">
   <img src="topic_comparison_pies.png" title="sections by each president">
 </p>
-A side-by-side comparison of the sections in which the articles are covered under. National sections were the dominate sections for both presidents, the Business section is the second highest section for President Obama, while Op-Ed is the second highest for President Trump. 
+A side-by-side comparison of the sections in which each articles were covered under. National sections were the dominate sections for both presidents, the Business section is the second highest section for President Obama, while Op-Ed is the second highest for President Trump. 
 
 # Keyword Overview 
-These interactive visualizations showed the most popular keywords for each of the president tagged by the New York Times. Each president keywords also featured a drop-down tool that allowed one to examine the top keywords associated with the articles broken down by People, Subject, Organization, and Location. 
+These interactive visualizations showed the most popular keywords for each of the president tagged by the New York Times. Each president keywords also featured a drop-down tool that allowed one to examine the top keywords associated with the articles broken down by People, Subject, Organization, and Location types. 
 <p align="center">
   <img src="keywords_obama.png" title="Obama keywords">
   <img src="keywords_trump.png" title="Obama keywords">
